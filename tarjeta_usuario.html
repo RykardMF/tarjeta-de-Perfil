@@ -8,26 +8,57 @@
 </head>
 <body>
     <nav id="barra">
-        <h2 class="perfil">Perfil</h2>
+        <a href="#" class="perfil">Perfil</a>
         <a href="#" class="navegacion">Inicio</a>
         <a href="#" class="navegacion">Mi Perfil</a>
         <a href="#" class="navegacion">Encontrar Conexiones</a>
         <input type="button" name="cerrar" id="sesion" value="Cerrar Sesión">
     </nav>
     <main id="tarjeta">
-        <div class="header"></div>
-        <div class="cajainformacion">
-            <div class="icono"></div>
-            <h1>Ricardo Faúndez</h1>
-            <h2>San Clemente, Chile</h2>
-            <p class="capacidad">Programador novato en HTML, CSS y JavaScript | Desarrollador Backend | Amante de la Física</p>
-            <p class="descripcion"> Siempre buscando aprender cosas nuevas e interesantes. Cuando no está investigando y aprendiendo sobre algún tema en particular,</p>
-            <p class="descripcion">disfruta leer algún comic, jugar algún videojuego o escuchar su música favorita</p>
-        </div>
+            <div>
+                <div class="header">
+                </div>
+                <div class="descripcion">
+                    <div class="icono"></div>
+                    <div id="textop">
+                        <h1>Ricardo Faúndez</h1>
+                        <h2>San Clemente, Chile</h2>
+                        <p>Programador novato en HTML, CSS y JavaScript | Desarrollador Backend | Amante de la Física</p>
+                        <p> Siempre buscando aprender cosas nuevas e interesantes. Cuando no está investigando y aprendiendo sobre algún tema en particular,</p>
+                        <p>disfruta leer algún comic, jugar algún videojuego o escuchar su música favorita</p>
+                    </div>
+                    </div>
+            </div>
         <div>
-            <input type="button" name="editar" class="boton" value="edit profile">
-        </div>
-    </main>
+            </div>
+            <div id="solicitudes">
+                <h4>Solicitudes de Conexión (3)</h4>
+                <ul class="lista">
+                    <li>
+                        <a href="https://www.youtube.com/shorts/It3GwkwM5F0" target="_blank" class="conexion">
+                            <img src="https://thedecisionlab.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fthedecisionlab%2Fb230c67d-071f-437a-afd7-c025a31b0669_isaac-newton-1.jpg%3Fauto%3Dformat%2Ccompress&w=3840&q=75" alt="newton">Isaac Newton
+                        </a>
+                        <input type="submit" name="aceptar" value="✔" class="aceptar">
+                        <input type="submit" name="rechazar" value="✖" class="rechazar">
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=Lp5GsO1zqfw" target="_blank" class="conexion">
+                            <img src="https://resizer.glanacion.com/resizer/v2/barney-fue-una-de-las-figuras-infantiles-mas-WVMNYPCNSVFKDOIGUF24SEIOIU.jpg?auth=9e4c64293a4239787ff78d244697992e089cddcd57a0e62272259d6faa1ccbe3&width=1280&height=854&quality=70&smart=true" alt="Barney">Barney El Dinosaurio
+                        </a>
+                        <input type="submit" name="aceptar" value="✔" class="aceptar">
+                        <input type="submit" name="rechazar" value="✖" class="rechazar">
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/shorts/kRAwjKECEJs" target="_blank" class="conexion">
+                            <img src="https://preview.redd.it/ry1q8d4jypc51.jpg?auto=webp&s=6344ab7891f5baf87258775a72bd5e1ead8339e2" alt="tuco">Tuco Salamanca
+                        </a>
+                        <input type="submit" name="aceptar" value="✔" class="aceptar">
+                        <input type="submit" name="rechazar" value="✖" class="rechazar">
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <input type="button" name="editar" class="boton" value="edit profile">
     <footer>
         <div id="texto">
             <h3>Educación</h3>
@@ -35,35 +66,7 @@
             <p>Dic 2024 - Mar 2025</p>
             <p>Cinturón blanco en HTML, CSS y JavaScript</p>
         </div>
-    </footer>
-    <aside class="seccion">
-        <div id="solicitudes">
-            <h4>Solicitudes de Conexión (3)</h4>
-            <ul class="lista">
-                <li>
-                    <a href="https://www.youtube.com/shorts/It3GwkwM5F0" target="_blank" class="conexion">
-                        <img src="https://thedecisionlab.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fthedecisionlab%2Fb230c67d-071f-437a-afd7-c025a31b0669_isaac-newton-1.jpg%3Fauto%3Dformat%2Ccompress&w=3840&q=75" alt="newton">Isaac Newton
-                    </a>
-                    <input type="submit" name="aceptar" value="✔" class="aceptar">
-                    <input type="submit" name="rechazar" value="✖" class="rechazar">
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=Lp5GsO1zqfw" target="_blank" class="conexion">
-                        <img src="https://resizer.glanacion.com/resizer/v2/barney-fue-una-de-las-figuras-infantiles-mas-WVMNYPCNSVFKDOIGUF24SEIOIU.jpg?auth=9e4c64293a4239787ff78d244697992e089cddcd57a0e62272259d6faa1ccbe3&width=1280&height=854&quality=70&smart=true" alt="Barney">Barney El Dinosaurio
-                    </a>
-                    <input type="submit" name="aceptar" value="✔" class="aceptar">
-                    <input type="submit" name="rechazar" value="✖" class="rechazar">
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/shorts/kRAwjKECEJs" target="_blank" class="conexion">
-                        <img src="https://preview.redd.it/ry1q8d4jypc51.jpg?auto=webp&s=6344ab7891f5baf87258775a72bd5e1ead8339e2" alt="tuco">Tuco Salamanca
-                    </a>
-                    <input type="submit" name="aceptar" value="✔" class="aceptar">
-                    <input type="submit" name="rechazar" value="✖" class="rechazar">
-                </li>
-            </ul>
-        </div>
-        <div id="conexiones">  
+        <div class="conexiones">  
             <h4>Tus Conexiones (500+)</h4>
             <ul class="lista">
                 <li>
@@ -98,6 +101,6 @@
             </ul>
             </a>
         </div>
-    </aside>
+    </footer>
 </body>
 </html>
