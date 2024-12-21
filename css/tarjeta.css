@@ -7,9 +7,8 @@
     background-color: aqua;
     border-radius: 15px 15px 0 0;
     height: 150px;
-    width: 60%;
-    margin: 15px;
-    margin-bottom: 0;
+    width: 100%;
+    margin: 15px 15px 0 30px ;
     box-shadow: 3px 4px 6px 4px rgba(68, 64, 64, 0.1);
 }
 .icono{
@@ -18,42 +17,37 @@
     width: 150px;
     background-position: center;
     border-radius: 50%;
-    position: relative;
-    background-size: cover;
-    bottom: 75px;
-    left: 125px;
     border: 10px solid white;
-}
-.cajainformacion{
-    background-color: white;
-    box-shadow: 4px 4px 6px 3px rgba(95, 92, 92, 0.1);
-    border-radius: 0 0 15px 15px;
-    height: 350px;
-    width: 60%;
-    margin: 0 15px 15px 15px;
-    font-size: 15px;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
 }
 h1 {
-    position: relative;
-    bottom: 75px;
-    left: 133px;
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif, rgb(56, 53, 53);
     font-size: 20px;
+    margin: 15px;
+    margin-left: 75px;
 }
 h2 {
     color: rgb(0, 0, 0);
-    position: relative;
     font-size: 15px;
-    bottom: 65px;
-    left: 133px;
-}
-.capacidad {
-    color: rgb(0, 0, 0);
-    margin: 0px 20px 10px 20px;
+    margin: 15px;
+    margin-left: 75px;
 }
 .descripcion {
+    background-color: white;
     color: rgb(0, 0, 0);
-    margin: 0px 20px 10px 20px;
+    margin: 30px;
+    margin-top: 0;
+    box-shadow: 4px 3px 3px 3px rgba(58, 54, 54, 0.1);
+    height: 250px;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+#textop{
+    position: relative;
+    bottom: 130px;
+    margin: 30px;
 }
 .boton{
     height: 25px;
@@ -77,9 +71,10 @@ h2 {
     align-items: center;
 }
 #tarjeta{
-    position: relative;
-    top: 30px;
-    left: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 15px;
 }
 .navegacion{
     margin: 0 50px 0 20px;
@@ -102,11 +97,6 @@ h2 {
     border-radius: 10px;
     cursor: pointer;
 }
-aside{
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
 #solicitudes{
     background-color: white;
     height: 300px;
@@ -115,36 +105,31 @@ aside{
     border-radius: 15px;
     margin: 30px;
 }
-#conexiones{
-    background-color: white;
-    height: 600px;
-    width: 600px;
-    box-shadow: 4px 3px 4px 3px rgba(49, 47, 47, 0.1);
-    border-radius: 15px;
-    margin: 30px;
-}
-aside{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    transform: translateY(-770px)
-}
+
 h3 {
     font-size: 20px;
     margin-bottom: 15px;
 }
 footer{
-    height: 200px;
-    width: 60%;
-    box-shadow: 4px 3px 4px 3px rgba(31, 29, 29, 0.1);
-    border-radius: 15px;
-    margin: 25px 47px;
+    display: flex;
+    height: 450px;
+    width: 100%;
+    align-items: normal;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
 }
 #texto{
+    background-color: white;
+    height: 200px;
+    width: 58%;
+    box-shadow: 4px 3px 3px 3px rgba(58, 54, 54, 0.1);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px;
 }
 h4{
     padding: 15px;
@@ -183,4 +168,14 @@ img{
     color: red;
     font-size: 20px;
     cursor: pointer;
+}
+.conexiones{
+    background-color: white;
+    height: 450px;
+    width: 600px;
+    box-shadow: 4px 3px 3px 3px rgba(58, 54, 54, 0.1);
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
 }
